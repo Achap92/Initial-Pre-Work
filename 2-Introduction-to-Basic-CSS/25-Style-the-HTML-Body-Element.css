@@ -1,0 +1,7 @@
+/*Learned about inheritance. Every html page has a body and will inherit
+styling elements using CSS when the body is styled in the style tags*/
+<style>
+  body{
+    background-color: black;
+  }
+</style>
