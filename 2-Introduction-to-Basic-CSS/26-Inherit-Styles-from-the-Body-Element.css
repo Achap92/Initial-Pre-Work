@@ -1,0 +1,12 @@
+/*More practice using inheritance. We can style all elements in the body
+using inherited CSS*/
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1>Hello World</h1>
