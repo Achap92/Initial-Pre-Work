@@ -1,0 +1,16 @@
+/*Leared about priortizing one style over another. Since the h1 element was given
+the class of pink-text, it takes a higet precendance than when I declared the
+body to be green.*/
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+  .pink-text{
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
