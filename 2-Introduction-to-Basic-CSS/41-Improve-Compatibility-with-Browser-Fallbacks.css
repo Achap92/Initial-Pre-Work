@@ -1,0 +1,18 @@
+/*To help with browser compatability issues it is best to provide fallbacks
+to avoid potential problems. Sometimes when a browser parses the CSS for a
+webpage it will ignore any properties it does not support. Best practice is to
+provide a fallback property BEFORE the custom CSS variable since browsers read
+from the top down it will interpret the fallback if needed before the declared
+variable.*/
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
