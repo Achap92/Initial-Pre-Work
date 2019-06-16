@@ -1,0 +1,20 @@
+/*Learned about overriding styles using CSS. When you create two classes
+and use them in the same element the one that gets called second is used.
+Keep in mind the order of the CSS classes, the second one that is written will
+be used.*/
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+
+  .blue-text{
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
