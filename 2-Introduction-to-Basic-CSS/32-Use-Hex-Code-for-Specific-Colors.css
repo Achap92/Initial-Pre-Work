@@ -1,0 +1,8 @@
+/*Learned to use hex code to create a background color. In CSS we use
+6 numbers to represent colors where the first two numbers are for the red value
+the next two are for the green value and the last two are for the blue value*/
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
