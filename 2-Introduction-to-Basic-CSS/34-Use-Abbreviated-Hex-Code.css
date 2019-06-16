@@ -1,0 +1,26 @@
+/*Used shortened hex code to create text color. This is useful for when it's
+difficult to remember the full hex code for a color. The set back is that by using
+the shortened version we are limited to around 4000 colors instead of the
+16 million we have access to when we use the full hex code.*/
+<style>
+  .red-text {
+    color: #F00;
+  }
+  .fuchsia-text {
+    color: #F0F;
+  }
+  .cyan-text {
+    color: #0FF;
+  }
+  .green-text {
+    color: #0F0;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="fuchsia-text">I am fuchsia!</h1>
+
+<h1 class="cyan-text">I am cyan!</h1>
+
+<h1 class="green-text">I am green!</h1>
