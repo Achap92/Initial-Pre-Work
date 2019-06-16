@@ -1,0 +1,21 @@
+/*Learned to override CSS styling by using id attributes in the element. Even though browsers read from top to
+bottom, you can override the class that gets called last by using the id attribute to
+create the CSS style within the style sheet.*/
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+
+  #orange-text{
+    color: orange;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>
