@@ -1,0 +1,10 @@
+/*Used RBG value code to create a backgournd color. The three sets of numbers
+represent the the different RBG values. The first set of three numbers is for
+the Red value where 0 is the darkest and 255 is the brightest. The second
+set of numbers is for the Green value and the last set of numbers is for the
+Blue value.*/
+<style>
+  body {
+    background-color: rgb(0,0,0);
+  }
+</style>
