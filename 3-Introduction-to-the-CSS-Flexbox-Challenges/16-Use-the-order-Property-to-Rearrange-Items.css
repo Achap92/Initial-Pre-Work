@@ -1,0 +1,28 @@
+/*Learned about the order property to tell CSS the order that the flex items
+appear in the container. By default, the items will appear in the same order
+they came in the source HTML. The property can take numbers as value and
+can also accept negative numbers.*/
+<style>
+  #box-container {
+    display: flex;
+    height: 500px;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    order: 2;
+    height: 200px;
+    width: 200px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    order: 1;
+    height: 200px;
+    width: 200px;
+  }
+</style>
+
+<div id="box-container">
+  <div id="box-1"></div>
+  <div id="box-2"></div>
+</div>
