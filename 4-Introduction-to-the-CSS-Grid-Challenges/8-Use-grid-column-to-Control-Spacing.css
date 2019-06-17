@@ -1,0 +1,39 @@
+/*Learned about manipulating the grid items themselves now. Grid-column is the
+first property that is used on the items. There are hypothetical horizontal
+and vertical lines that create the grid numbered with 1 being in the top left
+corner and so on counting upwards. To control the amount of columns that an item
+will consume we can use the grid-column property in conjunction with the numbers
+to signify where we want the item to start and stop.*/
+<style>
+  .item1{background:LightSkyBlue;}
+  .item2{background:LightSalmon;}
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
+
+  .item5 {
+    background: PaleGreen;
+    /* add your code below this line */
+    grid-column: 2 / 4;
+
+    /* add your code above this line */
+  }
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+</style>
+
+<div class="container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+</div>
