@@ -1,0 +1,40 @@
+/*Learned to group cells in a grid into an area and give it a name by using
+grid-template-area. Note that every word in the code represents a cell and
+a pair of quotation marks signifies a row. You can also use a period(.) to
+create an empty cell in the grid. In this example the top row will be grouped
+into an area called header, then the next row will have two areas one that is
+blank and the other that is called content. The last row will be one area called
+footer.*/
+<style>
+  .item1{background:LightSkyBlue;}
+  .item2{background:LightSalmon;}
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
+  .item5{background:PaleGreen;}
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    /* change code below this line */
+
+    grid-template-areas:
+      "header header header"
+      ". content content"
+      "footer footer footer";
+    /* change code above this line */
+  }
+</style>
+
+<div class="container">
+  <div class="item1">1</div>
+  <div class="item2">2</div>
+  <div class="item3">3</div>
+  <div class="item4">4</div>
+  <div class="item5">5</div>
+</div>
