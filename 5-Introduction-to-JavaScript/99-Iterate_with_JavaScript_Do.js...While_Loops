@@ -1,0 +1,12 @@
+/*Learned about do while loops. In a do while loop it will do one pass of the code
+inside the loop no matter what then runs the while condition until it becomes
+false then will stop.*/
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+do {
+  myArray.push(i);
+  i++;
+} while (i < 5); 
